@@ -1,0 +1,76 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do menu de navegação */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Para conter os itens flutuantes */
+}
+
+nav li {
+    float: left; /* Alinha os itens horizontalmente */
+}
+
+/* Estilo dos links do menu */
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Efeito ao passar o mouse sobre os links */
+nav a:hover {
+    background-color: #111;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px;
+}
+
+/* Estilo do formulário de contato */
+form {
+    max-width: 600px;
+    margin: 0 auto; /* Centraliza o formulário */
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo do botão de envio */
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #555;
+}
